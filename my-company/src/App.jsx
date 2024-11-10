@@ -11,11 +11,11 @@ import Counter from './components/Counter';
 import UserContext from './components/UserContext';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Blogs from "./components/About";
-import Contact from "./components/Services";
-import NoPage from "./components/Contact";
+import About from "./components/About";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0)
