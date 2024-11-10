@@ -3,7 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav style={{backgroundColor:'gray',
+         display:'flex', justifyContent:'center'}}>
         <ul>
           <li>
             <Link to="/">Home</Link>
