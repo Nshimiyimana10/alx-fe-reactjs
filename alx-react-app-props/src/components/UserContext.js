@@ -1,5 +1,5 @@
 import React, {useState, createContext} from 'react';
-import UserProfile from './components/UserProfile.jsx';
+import UserProfile from './components/UserProfile.js';
 export const UserDataContext = createContext();
 
 import React from 'react'
