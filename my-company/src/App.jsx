@@ -9,6 +9,13 @@ import Footer from './components/Footer';
 import UserProfile from './components/UserProfile';
 import Counter from './components/Counter';
 import UserContext from './components/UserContext';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./components/Home";
+import Blogs from "./components/About";
+import Contact from "./components/Services";
+import NoPage from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,6 +52,16 @@ function App() {
       <UserContext.Provider value ={userData}>
            <UserProfile/>
       </UserContext.Provider>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
