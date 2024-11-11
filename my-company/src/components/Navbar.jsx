@@ -25,3 +25,5 @@ const Navbar = () => {
     </>
   )
 };
+
+//This is react router
