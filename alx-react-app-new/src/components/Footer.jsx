@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         <p style={{color:'white', backgroundColor:'green'}}>
-            &copy; copyright reserved
+            &copy; copyright reserved footer
         </p>
     </div>
   )
