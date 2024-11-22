@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 function RegistrationForm() {
 
-    const[errors, setErrors]=useState("")
+    const[errors, setErrors]=useState("");
 
     if(!username){
         return setErrors("Please enter your username");
