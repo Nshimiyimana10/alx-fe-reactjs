@@ -20,7 +20,7 @@ function PostsComponent() {
   }
   return (
     <div>
-         
+       <button onClick={fetchData}>Fetch data</button>   
     </div>
   )
 }
