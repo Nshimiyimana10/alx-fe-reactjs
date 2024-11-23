@@ -3,6 +3,7 @@ import Formik from 'formik'
 function formikForm(){
 
      const Yup = string().required;
+      Yup.object = Yup.string;
     form
     Field 
     ErrorMessage;
