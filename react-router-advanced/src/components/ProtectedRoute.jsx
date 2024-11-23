@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProtectedRoute() {
   return (
-    <div>ProtectedRoute</div>
+    <div>useAuth, Navigate</div>
   )
 }
 
