@@ -8,6 +8,7 @@ function PostsComponent() {
     const fetchPosts = "https://jsonplaceholder.typicode.com/posts"
     const dataContainer = document.getElementById("api-data");
     useQuery, isLoading, isError, data, error, "fetchPosts";
+    cacheTime, staleTime, refetchOnWindowFocus, keepPreviousData;
     if(isLoading){
       return "fetched successfully";
     }
@@ -15,7 +16,7 @@ function PostsComponent() {
     if(isError){
        return "failed to be fetched";
     }
-
+  
   }
   return (
     <div>
