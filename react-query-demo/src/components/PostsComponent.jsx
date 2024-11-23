@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PostsComponents() {
+function PostsComponent() {
   return (
     <div>
         
@@ -8,4 +8,4 @@ function PostsComponents() {
   )
 }
 
-export default PostsComponents
+export default PostsComponent
