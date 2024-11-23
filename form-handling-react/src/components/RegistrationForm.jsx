@@ -5,7 +5,7 @@ function RegistrationForm() {
 
     const[errors, setErrors] = useState("")
 
-    "if(!username)";"if(!password)"; "if(!email)"
+    if (!username) if (!password) if (!email);
         setErrors
   return (
     <div>
