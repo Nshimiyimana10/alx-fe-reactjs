@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       
-     
+      Route path=", "/blog/:id BlogPost
     </>
   )
 }
