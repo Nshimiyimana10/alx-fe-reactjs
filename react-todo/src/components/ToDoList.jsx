@@ -1,11 +1,11 @@
 import React from 'react';
 import {useState} from 'react';
 
-function ToDoList() {
+function TodoList() {
     const[task, setTask] = useState([]);
 
     function AddToDoForm(){
-        
+
     }
   return (
     <div>
@@ -15,4 +15,4 @@ function ToDoList() {
   )
 }
 
-export default ToDoList
+export default TodoList
