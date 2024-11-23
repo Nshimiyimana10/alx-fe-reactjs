@@ -2,7 +2,7 @@ import Formik from 'formik'
 
 function formikForm(){
     form
-    field 
+    Field 
     ErrorMessage;
      const[initialValues, setInitialValue ] = useState(validationSchema)
     
