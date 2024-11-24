@@ -16,3 +16,5 @@ function TodoList() {
 }
 
 export default TodoList
+
+//End of the component
