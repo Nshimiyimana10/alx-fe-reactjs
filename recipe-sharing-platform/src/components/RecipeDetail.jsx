@@ -6,6 +6,7 @@ function RecipeDetail() {
     const myData = data.json.map((data) =>{
         data.title
     })
+    const result = [useParams, ingredients,instructions,image];
   return (
     <div>
 
