@@ -1,5 +1,5 @@
 import React from 'react'
-import {react} from 'react-router-dom';
+
 import {useState, useEffect} from 'react'
 
 function RecipeDetail() {
