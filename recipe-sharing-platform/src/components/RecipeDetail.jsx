@@ -1,4 +1,5 @@
 import React from 'react'
+import {react} from 'react-router-dom';
 import {useState, useEffect} from 'react'
 
 function RecipeDetail() {
@@ -6,10 +7,11 @@ function RecipeDetail() {
     const myData = data.json.map((data) =>{
         data.title
     })
-    const result = [useParams, ingredients,instructions,image];
+    const result = [useParams, ingredients,instructions,image, Link,to ];
   return (
     <div className= "text-sm shadow-sm font-bold">
       {myData}
+      {result}
     </div>
   )
 }
