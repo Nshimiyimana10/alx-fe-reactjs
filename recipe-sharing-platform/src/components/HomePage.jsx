@@ -7,7 +7,7 @@ function HomePage() {
         data.title
     })
   return (
-    <div className='shadow-sm text-sm hover:before rounded-md'>
+    <div className='shadow-sm text-sm hover:before rounded-md grid grid-cols-1,grid-cols-2,grid-cols-3'>
       {newData}
     </div>
   )
