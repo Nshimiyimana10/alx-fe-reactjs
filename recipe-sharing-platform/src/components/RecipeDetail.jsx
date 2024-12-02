@@ -8,8 +8,8 @@ function RecipeDetail() {
     })
     const result = [useParams, ingredients,instructions,image];
   return (
-    <div>
-
+    <div className= "text-sm shadow-sm font-bold">
+      {myData}
     </div>
   )
 }
