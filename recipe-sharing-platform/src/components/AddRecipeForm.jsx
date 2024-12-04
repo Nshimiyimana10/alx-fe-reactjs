@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 function AddRecipeForm() {
   const [addRecipe, setAddRecipe] = useState("");
-  const newInfo =[handleSubmit];
+  const newInfo =[handleSubmit,validate,errors,setErrors];
 
   function ingredients(e){
    preventDefault(e.target.value);
