@@ -12,7 +12,7 @@ function AddRecipeForm() {
   }
 
   return (
-    <div >
+    <div className="shadow-md rounded-md md text-xs, font-bold">
     
     <form action="" onSubmit={ingredients}>
         <input type="text" />
