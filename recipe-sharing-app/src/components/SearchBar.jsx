@@ -15,4 +15,4 @@ const SearchBar = () => {
 
 export default SearchBar;
 //end
-// i know the js
+// i know the JS 
