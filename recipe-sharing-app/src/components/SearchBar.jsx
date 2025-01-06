@@ -15,4 +15,4 @@ const SearchBar = () => {
 
 export default SearchBar;
 //end
-// i know that JS can take a long time 
+// i know that JS can take long time
